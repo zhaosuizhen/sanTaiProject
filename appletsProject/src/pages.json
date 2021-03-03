@@ -1,0 +1,178 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		// {
+		// 	"path": "pages/map/index",
+		// 	"style": {
+		// 		"navigationBarTitleText": "地图",
+
+		// 		"usingComponents":{
+		// 			"van-button": "/wxcomponents/vant/dist/button/index",
+		// 			"van-search": "/wxcomponents/vant/dist/search/index"
+		// 		},
+
+		// 		"enablePullDownRefresh": true			//设置默认转发
+		// 	}
+		// },
+		{
+			"path": "pages/aboutPlatform/index",
+			"style": {
+				"navigationBarTitleText": "关于平台",
+				"enablePullDownRefresh": true			//设置默认转发
+			}
+			
+		},
+		// {
+		// 	"path": "pages/supplyInfo/index",
+		// 	"style": {
+		// 		"navigationBarTitleText": "供求信息",
+
+		// 		"usingComponents":{
+		// 			"van-button": "/wxcomponents/vant/dist/button/index",
+		// 			"van-search": "/wxcomponents/vant/dist/search/index"
+		// 		}
+				
+		// 		// "enablePullDownRefresh": true			//设置默认转发
+		// 	}
+		// },
+		{
+			"path": "pages/basicData/index",
+			"style": {
+				"navigationBarTitleText": "资源专题"
+			}
+		},
+		{
+			"path": "pages/priceData/index",
+			"style": {
+				"navigationBarTitleText": "基础数据",
+
+				"usingComponents":{
+					"van-search": "/wxcomponents/vant/dist/search/index"
+				}
+			}
+		},
+		{
+			"path": "pages/infoService/index",
+			"style": {
+				"navigationBarTitleText": "信息服务"
+			}
+		},
+		{
+			"path": "pages/user/index",
+			"style": {
+				"navigationBarTitleText": "我的",
+
+				"usingComponents":{
+					"van-button": "/wxcomponents/vant/dist/button/index"
+				}
+			}
+		},
+		{
+			"path": "pages/screen/index",
+			"style": {
+				"navigationBarTitleText": "筛选"
+			}
+		},
+		{
+			"path": "pages/infoServiceDetails/index",
+			"style": {
+				"navigationBarTitleText": "文章详情"
+			}
+		},
+		{
+			"path": "pages/priceDataDetail/index",
+			"style": {
+				"navigationBarTitleText": "价格详情",
+
+				"usingComponents":{
+					"van-button": "/wxcomponents/vant/dist/button/index",
+					"van-dropdown-menu": "/wxcomponents/vant/dist/dropdown-menu/index",
+					"van-dropdown-item": "/wxcomponents/vant/dist/dropdown-item/index",
+					"van-datetime-picker": "/wxcomponents/vant/dist/datetime-picker/index",
+					"van-popup": "/wxcomponents/vant/dist/popup/index",
+					"van-field": "/wxcomponents/vant/dist/field/index",
+					"van-radio": "/wxcomponents/vant/dist/radio/index",
+					"van-radio-group": "/wxcomponents/vant/dist/radio-group/index"
+				}
+			}
+		},
+		{
+			"path": "pages/business/index",
+			"style": {
+				"navigationBarTitleText": "买卖信息",
+
+				"usingComponents":{
+					"van-button": "/wxcomponents/vant/dist/button/index",
+					"van-field": "/wxcomponents/vant/dist/field/index",
+					"van-uploader": "/wxcomponents/vant/dist/uploader/index"
+				}
+			}
+		},
+		// {
+		// 	"path": "pages/supplyInfoDetail/index",
+		// 	"style": {
+		// 		"navigationBarTitleText": "供求详情"
+		// 	}
+		// },
+		{
+			"path": "pages/myRelease/index",
+			"style": {
+				"navigationBarTitleText": "我的发布",
+
+				"usingComponents":{
+					"van-button": "/wxcomponents/vant/dist/button/index"
+				}
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar":{
+		"color":"#343434",	//文字颜色
+		"selectedColor":"#ea4451",	//选中时文字颜色
+		"borderStyle":"white",
+		"list":[
+			// {
+			// 	"text":"地图",
+			// 	"pagePath":"pages/map/index"
+			// 	// "iconPath":"/static/tabs/icon_home@3x.png",
+			// 	// "selectedIconPath":"/static/tabs/icon_home_active@3x.png"
+			// },
+			// {
+			// 	"text":"供求信息",
+			// 	"pagePath":"pages/supplyInfo/index"
+			// 	// "iconPath":"/static/tabs/icon_home@3x.png",
+			// 	// "selectedIconPath":"/static/tabs/icon_home_active@3x.png"
+			// },
+			{
+				"text":"关于平台",
+				"pagePath":"pages/aboutPlatform/index"
+			},
+			{
+				"text":"资源专题",
+				"pagePath":"pages/basicData/index"
+			},
+			{
+				"text":"基础数据",
+				"pagePath":"pages/priceData/index"
+				// "iconPath":"/static/tabs/icon_category@3x.png",
+				// "selectedIconPath":"/static/tabs/icon_category_active@3x.png"
+			},
+			{
+				"text":"信息服务",
+				"pagePath":"pages/infoService/index"
+				// "iconPath":"/static/tabs/icon_cart@3x.png",
+				// "selectedIconPath":"/static/tabs/icon_cart_active@3x.png"
+			},
+			{
+				"text":"我的",
+				"pagePath":"pages/user/index"
+				// "iconPath":"/static/tabs/icon_user@3x.png",
+				// "selectedIconPath":"/static/tabs/icon_user_active@3x.png"
+			}
+		]
+	}
+}
